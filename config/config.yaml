@@ -1,0 +1,8 @@
+services:
+  nginx:
+    url: http://bundle_server
+
+bundles:
+  nginx:
+    service: nginx
+    resource: "bundles/bundle.tar.gz"
